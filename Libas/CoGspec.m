@@ -1,5 +1,5 @@
 function [CoGmat] = CoGspec(inmat, freqvec)
-%finds center of gravity according to Klimesch 1993
+% finds center of gravity according to Klimesch 1993
 % input is a part of a channel by frequency spectrum that contains ONLY the
 % frequency range of interest
 
