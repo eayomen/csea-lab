@@ -14,7 +14,7 @@ function [ inmat3d, badindex, NGoodtrials ] = scadsAK_3dtrials(inmat3d, threshol
      
      actualdistribution = qualindex(qualindex < cutoff) ;
      
-     plot(qualindex), yline(threshold.* median(actualdistribution));
+     figure(999), plot(qualindex), yline(threshold.* median(actualdistribution));
     
     badindex = find(qualindex > threshold.* median(actualdistribution));
     

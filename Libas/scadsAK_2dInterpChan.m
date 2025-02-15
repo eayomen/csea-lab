@@ -25,7 +25,7 @@ function [outmat2d, interpvec] = scadsAK_2dInterpChan(inmat2d, locations, thresh
    
     % calculate compound quality index
     qualindex = absvalvec+ stdvalvec+ maxtransvalvec; 
-    figure(101)
+    figure(201)
     plot(qualindex)
     
     
